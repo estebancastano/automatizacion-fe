@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class User Profile Creation</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class User Profile Creation</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; User Profile Creation</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">12.042s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Failed tests</a>
+</li>
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+<li>
+<a href="#">Standard error</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Successful profile registration"></a>
+<h3 class="failures">Successful profile registration</h3>
+<span class="code">
+<pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6fbe4e721503aaf571a465ab286ee4df, clickElement {id=f.9D3143C1A1D3C97956DEAC9CE61A2529.d.EF2B1ADC6F3CD093822D37536DDB111D.e.17}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61631}, goog:processID: 30120, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61631/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6fbe4e721503aaf571a465ab286ee4df)] -&gt; xpath: //button[contains(text(), 'Iniciar sesión') or @type='submit']]
+Session ID: 6fbe4e721503aaf571a465ab286ee4df
+	at java.base@17.0.14/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@17.0.14/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base@17.0.14/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@17.0.14/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base@17.0.14/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at app//org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.lambda$click$6(WebElementFacadeImpl.java:1220)
+	at app//net.serenitybdd.core.pages.WithRetries.perform(WithRetries.java:22)
+	at app//net.serenitybdd.core.pages.WithRetries.perform(WithRetries.java:27)
+	at app//net.serenitybdd.core.pages.WithRetries.perform(WithRetries.java:27)
+	at app//net.serenitybdd.core.pages.WithRetries.perform(WithRetries.java:27)
+	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1220)
+	at app//net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at app//net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$W32mmsZS.performAs$accessor$SHon5I7l(Unknown Source)
+	at java.base@17.0.14/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.14/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.14/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.14/java.lang.reflect.Method.invoke(Method.java:569)
+	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:524)
+	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:504)
+	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:476)
+	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:218)
+	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:205)
+	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:93)
+	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at app//net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$W32mmsZS.performAs(Unknown Source)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:299)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:274)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:215)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:222)
+	at app//co.edu.udea.calidad.automatizacion.interactions.ClickOn.performAs(ClickOn.java:23)
+	at app//co.edu.udea.calidad.automatizacion.interactions.ClickOn$ByteBuddy$K4Tcotxq.performAs$accessor$vLVyS0vp(Unknown Source)
+	at java.base@17.0.14/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.14/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.14/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.14/java.lang.reflect.Method.invoke(Method.java:569)
+	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:524)
+	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:504)
+	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:476)
+	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:218)
+	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:205)
+	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:93)
+	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at app//co.edu.udea.calidad.automatizacion.interactions.ClickOn$ByteBuddy$K4Tcotxq.performAs(Unknown Source)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:299)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:274)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:215)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:222)
+	at app//co.edu.udea.calidad.automatizacion.tasks.Login.performAs(Login.java:19)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:299)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:274)
+	at app//net.serenitybdd.screenplay.Actor.performWithoutReporting(Actor.java:258)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:213)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:222)
+	at app//net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:193)
+	at app//co.edu.udea.calidad.automatizacion.stepdefinitions.ProfileCreationStepDefinition.loggedIn(ProfileCreationStepDefinition.java:32)
+	at ✽.the user is logged into the platform(file:///C:/Users/User/Documents/proyectos-de-programacion/automatizacion-pagina-web/src/test/resources/features/profile/profile_creation.feature:6)
+</pre>
+</span>
+</div>
+</div>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Successful profile registration</td>
+<td class="failures">12.042s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Simulando confirmación de email: testuser_4004f66d04d04c3e908a671b8204e405@mailinator.com
+</pre>
+</span>
+</div>
+<div class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Successful profile registration(user-profile-creation;successful-profile-registration)
+--------------------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, \n                   --disa..., --disable-default-apps, --disable-extensions-file-a..., \n                   --inco..., --disable-infobars,--disabl..., --remote-allow-origins=*], extensions: []}}
+dic. 02, 2025 7:46:16 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 142
+dic. 02, 2025 7:46:16 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+ADVERTENCIA: Unable to find version of CDP to use for 142.0.7444.176. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[Test worker] ERROR  - ?[91m
+  _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+ |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+   | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+   |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+
+Successful profile registration
+---------------------------------------------------------------?[0m
+[Test worker] ERROR  - ?[91m    Test failed at step: User clicks on login button?[0m
+[Test worker] ERROR  - ?[91m    stale element reference: stale element not found?[0m
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.13</a> at 2/12/2025, 7:46:27 p. m.</p>
+</div>
+</div>
+</body>
+</html>

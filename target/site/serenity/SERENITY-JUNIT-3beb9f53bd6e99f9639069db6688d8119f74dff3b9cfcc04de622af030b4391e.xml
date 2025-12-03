@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="2" name="Customer Login in Advantage Online Shopping" skipped="0" tests="2" time="4.89" timestamp="2025-11-24 12:36:36"><testcase name="Successful login"><failure message="&#10;Expected: &quot;Logged in successfully&quot;&#10;     but: was &quot;HP Pavilion 15z Touch Laptop&quot;" type="java.lang.AssertionError">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="2" name="Customer Login in Advantage Online Shopping" skipped="0" tests="2" time="6.71" timestamp="2025-11-24 06:17:47"><testcase name="Successful login"><failure message="&#10;Expected: &quot;Logged in successfully&quot;&#10;     but: was &quot;HP Pavilion 15z Touch Laptop&quot;" type="java.lang.AssertionError">
 Expected: "Logged in successfully"
      but: was "HP Pavilion 15z Touch Laptop"</failure><system-err>
 Expected: "Logged in successfully"

@@ -4,16 +4,11 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class LoginPage {
+    public static final Target EMAIL = Target.the("email field").located(By.id("email"));
+    public static final Target PASSWORD = Target.the("password field").located(By.id("password"));
+    public static final Target LOGIN_BUTTON = Target.the("login button")
+            .located(By.xpath("//button[contains(text(), 'Iniciar sesión') or @type='submit']"));
 
-    public static final Target LOGIN_ICON = Target.the("ícono de login")
-            .located(By.id("menuUser"));
-
-    public static final Target LOGIN_BUTTON = Target.the("botón login")
-            .located(By.id("sign_in_btn"));
-
-    /** Mensaje de error si las credenciales son incorrectas */
-    public static final Target LOGIN_ERROR = Target.the("mensaje de error de login")
-            .located(By.xpath("//label[@class='invalid']"));
-    public static final Target USERNAME = Target.the("username").located(By.name("username"));
-    public static final Target PASSWORD = Target.the("password").located(By.name("password"));
-}
+    // Element visible ONLY if login succeeds
+    public static final Target PROFILE_LINK = Target.the("profile link")
+            .located(By.xpath("//a[contains(@href,'/account')]"));}
