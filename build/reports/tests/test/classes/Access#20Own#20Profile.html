@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">12.792s</div>
+<div class="counter">7.577s</div>
 <p>duration</p>
 </div>
 </td>
@@ -80,16 +80,14 @@
   (Session info: chrome=142.0.7444.176)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ba2fe06ea1fdeed0f198e9d0d3055012, findElement {using=id, value=email}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59669}, goog:processID: 30352, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59669/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ba2fe06ea1fdeed0f198e9d0d3055012
-	at java.base@17.0.14/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base@17.0.14/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base@17.0.14/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base@17.0.14/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base@17.0.14/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+Command: [7201ba716ce647f0575566dda755976b, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57427}, goog:processID: 32736, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57427/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7201ba716ce647f0575566dda755976b
+	at java.base@21.0.9/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base@21.0.9/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base@21.0.9/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -109,13 +107,11 @@ Session ID: ba2fe06ea1fdeed0f198e9d0d3055012
 	at app//net.serenitybdd.core.pages.WithRetries.perform(WithRetries.java:22)
 	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:744)
 	at app//net.serenitybdd.screenplay.actions.EnterValueIntoTarget.lambda$performAs$0(EnterValueIntoTarget.java:19)
-	at java.base@17.0.14/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base@21.0.9/java.util.Optional.ifPresent(Optional.java:178)
 	at app//net.serenitybdd.screenplay.actions.EnterValueIntoTarget.performAs(EnterValueIntoTarget.java:18)
-	at app//net.serenitybdd.screenplay.actions.EnterValueIntoTarget$ByteBuddy$KbDWYk6h.performAs$accessor$o7aTh2cV(Unknown Source)
-	at java.base@17.0.14/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@17.0.14/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base@17.0.14/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@17.0.14/java.lang.reflect.Method.invoke(Method.java:569)
+	at app//net.serenitybdd.screenplay.actions.EnterValueIntoTarget$ByteBuddy$klPJWEv2.performAs$accessor$44I82YmE(Unknown Source)
+	at java.base@21.0.9/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.9/java.lang.reflect.Method.invoke(Method.java:580)
 	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:524)
 	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:504)
 	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:476)
@@ -123,7 +119,7 @@ Session ID: ba2fe06ea1fdeed0f198e9d0d3055012
 	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:205)
 	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:93)
 	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at app//net.serenitybdd.screenplay.actions.EnterValueIntoTarget$ByteBuddy$KbDWYk6h.performAs(Unknown Source)
+	at app//net.serenitybdd.screenplay.actions.EnterValueIntoTarget$ByteBuddy$klPJWEv2.performAs(Unknown Source)
 	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:299)
 	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:274)
 	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:215)
@@ -142,7 +138,7 @@ Session ID: ba2fe06ea1fdeed0f198e9d0d3055012
 	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:222)
 	at app//net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:193)
 	at app//co.edu.udea.calidad.automatizacion.stepdefinitions.ProfileAccessStepDefinition.authenticated(ProfileAccessStepDefinition.java:16)
-	at ✽.the user is authenticated on the platform(file:///C:/Users/User/Documents/proyectos-de-programacion/automatizacion-pagina-web/src/test/resources/features/profile/profile_access.feature:6)
+	at ✽.the user is authenticated on the platform(file:///C:/Users/USER/Documents/Universidades/UdeA/Calidad%20de%20Software/automatizacion-fe/src/test/resources/features/profile/profile_access.feature:6)
 </pre>
 </span>
 </div>
@@ -159,7 +155,7 @@ Session ID: ba2fe06ea1fdeed0f198e9d0d3055012
 </thead>
 <tr>
 <td class="failures">Successful access to profile</td>
-<td class="failures">12.792s</td>
+<td class="failures">7.577s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -176,10 +172,10 @@ Session ID: ba2fe06ea1fdeed0f198e9d0d3055012
 Successful access to profile(access-own-profile;successful-access-to-profile)
 --------------------------------------------------------------------------------
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
-[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, \n                   --disa..., --disable-default-apps, --disable-extensions-file-a..., \n                   --inco..., --disable-infobars,--disabl..., --remote-allow-origins=*], extensions: []}}
-dic. 02, 2025 7:46:04 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, \r\n                   --di..., --disable-default-apps, --disable-extensions-file-a..., \r\n                   --in..., --disable-infobars,--disabl..., --remote-allow-origins=*], extensions: []}}
+dic 02, 2025 10:12:24 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 ADVERTENCIA: Unable to find CDP implementation matching 142
-dic. 02, 2025 7:46:04 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+dic 02, 2025 10:12:24 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 ADVERTENCIA: Unable to find version of CDP to use for 142.0.7444.176. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] ERROR  - ?[91m
   _____   ___   ___   _____     ___   ___   ___    ___    ___ 
@@ -202,7 +198,7 @@ Successful access to profile
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.13</a> at 2/12/2025, 7:46:27 p. m.</p>
+<a href="https://www.gradle.org">Gradle 8.13</a> at 2/12/2025, 10:12:38 p. m.</p>
 </div>
 </div>
 </body>
